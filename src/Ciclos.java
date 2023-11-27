@@ -5,7 +5,7 @@ public class Ciclos {
         /*While = Mientras se cumpla la condición entre paréntesis
         se realizará el contenido del While.
          */
-        while (i < 5){
+        while (i < 5){ //El contenido entre paréntesis es la condición que debe seguir el While
             System.out.println("El valor de i es: " + i);
             i++;
         }
@@ -24,7 +24,7 @@ public class Ciclos {
         con todo en una misma línea y aplicando un inicio y un
         final de la condición.
         1ºFORMA:
-        for ( int (donde empieza la repetición); (donde acaba); (si aumenta o disminuye)) {
+        for ( int (donde empieza la repetición); (donde acaba); (si aumenta o disminuye las vueltas)) {
          */
         for (int j = 0; j < 5; j++){
             System.out.println("El valor de j es: " + j);
